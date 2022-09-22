@@ -1,3 +1,67 @@
-header nav img {
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+.header .navbar-brand img {
   width: 60px;
   height: 50px; }
+
+.header .nav-item a:hover {
+  color: rgba(136, 92, 177, 0.856); }
+
+.main .contenidoIndex {
+  margin: 10px 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; }
+  .main .contenidoIndex .contenedor {
+    width: 100%;
+    height: auto;
+    padding: 5px 40px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center; }
+    .main .contenidoIndex .contenedor .item-1 {
+      height: 450px;
+      width: 60%;
+      min-width: 350px;
+      overflow: hidden; }
+      .main .contenidoIndex .contenedor .item-1 img {
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+        transition: all 350ms ease-in-out; }
+        .main .contenidoIndex .contenedor .item-1 img:hover {
+          transform: scale(1.1) rotate(3deg); }
+    .main .contenidoIndex .contenedor .item-2 {
+      height: 450px;
+      width: 40%;
+      min-width: 350px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column; }
+
+main .card {
+  width: 14rem; }
+  main .card:hover {
+    transform: scale(1.02); }
+  main .card .images .second-image {
+    display: none; }
+  main .card .images:hover .first-image {
+    display: none; }
+  main .card .images:hover .second-image {
+    display: block; }
+
+footer div ul {
+  display: flex;
+  list-style: none;
+  justify-content: center; }
+  footer div ul li {
+    list-style: none; }
+    footer div ul li a .img-redes {
+      margin: 10px;
+      width: 36px;
+      height: 36px; }

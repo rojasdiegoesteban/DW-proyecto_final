@@ -1,8 +1,58 @@
-header{
-    nav{
-        img{
-            width: 60px;
-            height: 50px;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+// header
+@import './sections/header';
+//index
+@import './sections/index';
+
+main {
+
+    .card {
+        width: 14rem;
+
+        &:hover {
+            transform: scale(1.02);
+        }
+
+        .images {
+            .second-image {
+                display: none;
+            }
+
+            &:hover .first-image {
+                display: none;
+            }
+
+            &:hover .second-image {
+                display: block;
+            }
         }
     }
+
 }
+
+footer{
+    div{
+        ul{
+            display: flex;
+            list-style: none;
+            justify-content: center;
+            li {
+                list-style: none;
+                a{
+                    .img-redes{
+                        margin: 10px;
+                        width: 36px;
+                        height: 36px;
+                    }
+                }
+            }
+        }
+    }
+
+}
+
