@@ -1,0 +1,23 @@
+.footer {
+    //margin-top: auto;
+    div {
+        ul {
+            display: flex;
+            list-style: none;
+            justify-content: center;
+
+            li {
+                list-style: none;
+
+                a {
+                    .img-redes {
+                        margin: 0px 10px 0px 10px;
+                        width: 38px;
+                        height: 38px;
+                    }
+                }
+            }
+        }
+    }
+
+}

@@ -4,55 +4,29 @@
     box-sizing: border-box;
 }
 
+//fuentes
+@import url('https://fonts.googleapis.com/css2?family=Bubblegum+Sans&display=swap');
+//variables
+@import './sections/variables';
 // header
 @import './sections/header';
 //index
 @import './sections/index';
+//skate
+@import './sections/skate';
+//indumentaria
+@import './sections/indumentaria';
+//accesorios
+@import './sections/accesorios';
+//footer
+@import './sections/_footer';
 
-main {
 
-    .card {
-        width: 14rem;
-
-        &:hover {
-            transform: scale(1.02);
-        }
-
-        .images {
-            .second-image {
-                display: none;
-            }
-
-            &:hover .first-image {
-                display: none;
-            }
-
-            &:hover .second-image {
-                display: block;
-            }
-        }
-    }
-
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family: 'Bubblegum Sans', cursive;
 }
 
-footer{
-    div{
-        ul{
-            display: flex;
-            list-style: none;
-            justify-content: center;
-            li {
-                list-style: none;
-                a{
-                    .img-redes{
-                        margin: 10px;
-                        width: 36px;
-                        height: 36px;
-                    }
-                }
-            }
-        }
-    }
-
-}
 

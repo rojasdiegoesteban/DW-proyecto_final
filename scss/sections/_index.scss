@@ -48,6 +48,92 @@
                 justify-content: center;
                 align-items: center;
                 flex-direction: column;
+
+                h2{
+                    font-size: 46px;
+                    color: $color02;
+                }
+
+                .btn-index{
+                    position: relative;
+                    display: inline-block;
+                    padding: 15px 30px;
+                    color: black;
+                    letter-spacing: 4px;
+                    font-size: 24px;
+                    text-decoration: none;
+                    overflow: hidden;
+                    transition: 0.2;
+
+                    span{
+                        position: absolute;
+                        display: block;
+
+                    }
+
+                    &:hover{
+                        background: $color01;
+                        box-shadow: 0 0 10px $color01, 0 0 40px $color01, 0 0 80px $color01;
+                        transition-delay: 1s;
+                        color: white;
+                    }
+
+                    &:hover .span1{
+                        left: 100%;
+                        transition: 1s;
+                    }
+
+                    &:hover .span2{
+                        top: 100%;
+                        transition: 1s;
+                        transition-delay: 0.25s;
+                    }
+
+                    &:hover .span3{
+                        right: 100%;
+                        transition: 1s;
+                        transition-delay: 0.5s;
+                    }
+
+                    &:hover .span4{
+                        bottom: 100%;
+                        transition: 1s;
+                        transition-delay: 0.75s;
+                    }
+
+                    .span1{
+                        top: 0;
+                        left: -100%;
+                        width: 100%;
+                        height: 2px;
+                        background: linear-gradient(90deg, transparent, $color01);
+                    }
+
+                    .span2{
+                        top: -100%;
+                        left: 0;
+                        width: 2px;
+                        height: 100%;
+                        background: linear-gradient(180deg, transparent, $color01);
+                    }
+
+                    .span3{
+                        bottom: 0;
+                        right: -100%;
+                        width: 100%;
+                        height: 2px;
+                        background: linear-gradient(270deg, transparent, $color01);
+                    }
+
+                    .span4{
+                        bottom: -100%;
+                        left: 0;
+                        width: 2px;
+                        height: 100%;
+                        background: linear-gradient(360deg, transparent, $color01);
+                    }
+                }
+
             }
         }
 
