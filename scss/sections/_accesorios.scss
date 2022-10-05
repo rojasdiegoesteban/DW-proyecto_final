@@ -4,7 +4,6 @@
     }
 
     .card-accesorios {
-        width: 14rem;
 
         &:hover {
             transform: scale(1.02);
@@ -47,7 +46,6 @@
                 &:hover::after {
                     top: 0;
                 }
-
 
             }
         }
