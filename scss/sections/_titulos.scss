@@ -1,0 +1,24 @@
+.cont-titulo {
+    padding-top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    .titulo {
+        font-size: 3.5rem;
+        background-image: linear-gradient(80deg, $color01, $color02);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -moz-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        -moz-text-fill-color: transparent;
+    }
+
+    .borde {
+        width: 90%;
+        height: 1.5px;
+        margin-bottom: 30px;
+        background-image: linear-gradient(80deg, $color01, $color02);
+    }
+}

@@ -20,6 +20,8 @@
 @import './sections/indumentaria';
 //accesorios
 @import './sections/accesorios';
+//contacto
+@import './sections/contacto';
 //footer
 @import './sections/_footer';
 
@@ -29,4 +31,13 @@ body{
     flex-direction: column;
     min-height: 100vh;
     font-family: 'Bubblegum Sans', cursive;
+    background-image: url(../img/fondo.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
+
+//media queries
+@import './sections/media';
+

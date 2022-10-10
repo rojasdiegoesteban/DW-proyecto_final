@@ -44,8 +44,8 @@
                         <li class="nav-item">
                             <a class="nav-link" href="../pages/accesorios.html">Accesorios</a>
                         </li>
-                        <li class="nav-item active">
-                            <a class="nav-link" href="../pages/contacto.html">Contacto</a>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="../pages/contacto.html">Contacto</a>
                         </li>
                     </ul>
                 </div>
@@ -53,19 +53,34 @@
         </nav>
         <!-- Fin navbar -->
     </header>
-    <main>
-        <h1>CONTACTO</h1>
-        <form action="#">
-            <input type="text" placeholder="Nombre y apellido" name="Nombre">
-            <br><br>
-            <label for="edad">Fecha de nacimiento</label>
-            <br>
-            <input type="date" name="edad">
-            <br><br>
-            <textarea name="comentario" cols="50" rows="8"> </textarea>
-            <br><br>
-            <input type="submit">
-            <br><br>
+    <main class="contacto">
+
+        <section class="infoContacto">
+            <h1>Si necesitas información sobre cualquiera de nuestros productos rellena el formulario y nos pondremos en
+                contacto contigo.</h1>
+        </section>
+
+        <form action="#" class="formulario">
+            <h2>CONTACTO</h2>
+            <p>Nombre y Apellido:</p>
+            <input type="text" name="Nombre">
+            <p>Mail:</p>
+            <input type="mail" name="mail" class="mail input">
+            <p>Telefono:</p>
+            <input type="number" name="tel" class="telefono input">
+            <!-- <p>Tipo de producto:</p>
+            <span>Skates</span>
+            <input type="radio" name="producto" value="skate" class="radio">
+            <span>Indumentaria</span>
+            <input type="radio" name="producto" value="indumentaria">
+            <span>Accesorios</span>
+            <input type="radio" name="producto" value="accesorios">
+            <span>Varios</span>
+            <input type="radio" name="producto" value="varios"> -->
+            <p>Observaciones:</p>
+            <textarea name="observaciones" cols="20" rows="2" class="input"></textarea>
+            <button class="btn-form"><span>Enviar</span></button>
+
         </form>
     </main>
     <!-- Inicio footer -->
@@ -90,9 +105,13 @@
                 </a>
             </li>
         </ul>
-        <p>Diego Esteban Rojas &copy 2022</p>
+        <p>2022 | DIEGO ESTEBAN ROJAS</p>
     </footer>
     <!-- Fin footer -->
+    <!-- link a bootstrap js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>

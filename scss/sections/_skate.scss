@@ -1,7 +1,5 @@
 .skate {
-    p {
-        color: $color02;
-    }
+    @import '../sections/titulos';
 
     .card-skate {
         //width: 14rem;

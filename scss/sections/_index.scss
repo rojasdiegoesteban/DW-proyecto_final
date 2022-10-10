@@ -1,15 +1,15 @@
-.main {
+.index {
     // background-color: gray;
 
     .contenidoIndex {
         // background-color: cornflowerblue;
-        margin: 10px 30px;
+        margin: 30px 40px;
         display: flex;
         flex-direction: column;
         justify-content: center;
 
 
-        .contenedor {
+        .contenedor1, .contenedor2 {
             //  background-color: fuchsia;
             width: 100%;
             height: auto;
@@ -50,7 +50,7 @@
                 flex-direction: column;
 
                 h2{
-                    font-size: 46px;
+                    font-size: 50px;
                     color: $color02;
                 }
 

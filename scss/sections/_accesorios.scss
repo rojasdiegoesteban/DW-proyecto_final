@@ -1,7 +1,5 @@
 .accesorios {
-    p {
-        color: $color02;
-    }
+    @import '../sections/titulos';
 
     .card-accesorios {
 

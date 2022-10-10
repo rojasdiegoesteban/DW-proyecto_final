@@ -1,7 +1,5 @@
 .indumentaria {
-    p {
-        color: $color02;
-    }
+    @import '../sections/titulos';
 
     .card-indu {
 

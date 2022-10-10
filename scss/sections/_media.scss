@@ -1,0 +1,88 @@
+@media screen and (max-width:768px) {
+
+    //index
+    .index {
+
+        .contenidoIndex {
+            margin: 10px 0px;
+
+            .contenedor1, .contenedor2 {
+                padding: 5px 10px;
+                align-content: center;
+
+                .item-1 {
+                    height: 300px;
+                    width: 100%;
+                }
+
+                .item-2 {
+                    height: 200px;
+                    width: 100%;
+
+                    h2 {
+                        font-size: 40px;
+                        color: $color02;
+                    }
+                }
+
+            }
+
+            .contenedor2 {
+                flex-direction: column-reverse;
+            }
+
+        }
+    }
+
+    //contacto
+    .contacto {
+
+        .infoContacto {
+            width: 90%;
+        }
+
+        .formulario {
+            width: 90%;
+        }
+    }
+
+}
+
+
+@media screen and (min-width:769px) and (max-width:1052px) {
+
+    //index
+    .index {
+
+        .contenidoIndex {
+            margin: 20px 10px;
+
+            .contenedor1, .contenedor2 {
+                padding: 5px 10px;
+                align-content: center;
+
+                .item-1 {
+                    height: 400px;
+                    width: 100%;
+                }
+
+                .item-2 {
+                    height: 250px;
+                    width: 100%;
+
+                    h2 {
+                        font-size: 43px;
+                        color: $color02;
+                    }
+                }
+
+            }
+
+            .contenedor2 {
+                flex-direction: column-reverse;
+            }
+
+        }
+    }
+
+}
